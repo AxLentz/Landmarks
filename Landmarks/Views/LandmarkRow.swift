@@ -28,14 +28,11 @@ struct LandmarkRow: View {
     }
 }
 
-struct LandmarkRow_Previews: PreviewProvider {
-    static var previews: some View {
-        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Container@*/VStack/*@END_MENU_TOKEN@*/ {
-            LandmarkRow(landMark: landmarks[0])
-                    .previewDisplayName(landmarks[0].name)
-            LandmarkRow(landMark: landmarks[1])
-                .previewDisplayName(landmarks[0].name)
-        }
+#Preview {
+    let landmarks = ModelData().landmarks
+    return Group {
+        LandmarkRow(landMark: landmarks[0])
+        LandmarkRow(landMark: landmarks[1])
     }
 }
 
