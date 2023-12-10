@@ -31,6 +31,7 @@
 		CCF2A4292B18E1CC000C405C /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF2A4252B18E1CC000C405C /* HikeGraph.swift */; };
 		CCF2A42A2B18E1CC000C405C /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF2A4262B18E1CC000C405C /* HikeDetail.swift */; };
 		CCF2A42B2B18E1CC000C405C /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF2A4272B18E1CC000C405C /* HikeView.swift */; };
+		CCF2A42E2B260F62000C405C /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF2A42D2B260F62000C405C /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		CCF2A4252B18E1CC000C405C /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		CCF2A4262B18E1CC000C405C /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		CCF2A4272B18E1CC000C405C /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		CCF2A42D2B260F62000C405C /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				CC76C4D02AE95B52007D5433 /* ContentView.swift */,
+				CCF2A42C2B260F28000C405C /* Categories */,
 				CCF2A4232B18E1CC000C405C /* Hikes */,
 				CCF2A4132B09035A000C405C /* Landmarks */,
 				CCF2A41E2B138601000C405C /* Badges */,
@@ -181,6 +184,14 @@
 				CCF2A4272B18E1CC000C405C /* HikeView.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		CCF2A42C2B260F28000C405C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CCF2A42D2B260F62000C405C /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC76C4D12AE95B52007D5433 /* ContentView.swift in Sources */,
+				CCF2A42E2B260F62000C405C /* CategoryHome.swift in Sources */,
 				CCF2A4292B18E1CC000C405C /* HikeGraph.swift in Sources */,
 				CCF2A41D2B13823D000C405C /* Badge.swift in Sources */,
 				CC76C4DF2AEFEFD6007D5433 /* MapView.swift in Sources */,
