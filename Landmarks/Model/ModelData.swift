@@ -12,6 +12,7 @@ import Observation
 @Observable class ModelData {
     var landmarks: [Landmark] = load("landmarkData.json")
     var hikes: [Hike] = load("hikeData.json")
+    var profile = Profile.default
     
     var features: [Landmark] {
         landmarks.filter { $0.isFeatured }
