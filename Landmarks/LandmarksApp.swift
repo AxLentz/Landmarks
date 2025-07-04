@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct LandmarksApp: App {
-    @State private var modelData = ModelData()
+    @State private var modelData: ModelData = ModelData()
     
     var body: some Scene {
         WindowGroup {

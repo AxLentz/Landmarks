@@ -256,10 +256,10 @@
 		CC76C4E82AF2A643007D5433 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CC76C4E42AF29BD8007D5433 /* Landmark.swift */,
 				CC76C4E62AF2A22F007D5433 /* ModelData.swift */,
-				CCF2A4212B18DE7D000C405C /* Hike.swift */,
+				CC76C4E42AF29BD8007D5433 /* Landmark.swift */,
 				CCF2A4332B2F2EF1000C405C /* Profile.swift */,
+				CCF2A4212B18DE7D000C405C /* Hike.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -268,13 +268,8 @@
 			isa = PBXGroup;
 			children = (
 				CC76C4D02AE95B52007D5433 /* ContentView.swift */,
-				CCF2A4432B349242000C405C /* FeatureCard.swift */,
-				CCF2A4402B348D2B000C405C /* PageView */,
-				CCF2A4352B2F34BA000C405C /* Profiles */,
 				CCF2A42C2B260F28000C405C /* Categories */,
-				CCF2A4232B18E1CC000C405C /* Hikes */,
 				CCF2A4132B09035A000C405C /* Landmarks */,
-				CCF2A41E2B138601000C405C /* Badges */,
 				CCF2A4122B09034E000C405C /* Helpers */,
 			);
 			path = Views;
@@ -324,11 +319,12 @@
 		CCF2A4232B18E1CC000C405C /* Hikes */ = {
 			isa = PBXGroup;
 			children = (
+				CCF2A4272B18E1CC000C405C /* HikeView.swift */,
 				CCF2A4242B18E1CC000C405C /* GraphCapsule.swift */,
 				CCF2A4252B18E1CC000C405C /* HikeGraph.swift */,
 				CCF2A4262B18E1CC000C405C /* HikeDetail.swift */,
-				CCF2A4272B18E1CC000C405C /* HikeView.swift */,
 				CCF2A43C2B2F3B44000C405C /* HikeBadge.swift */,
+				CCF2A41E2B138601000C405C /* Badges */,
 			);
 			path = Hikes;
 			sourceTree = "<group>";
@@ -339,6 +335,8 @@
 				CCF2A42D2B260F62000C405C /* CategoryHome.swift */,
 				CCF2A42F2B28B46B000C405C /* CategoryRow.swift */,
 				CCF2A4312B28B853000C405C /* CategoryItem.swift */,
+				CCF2A4352B2F34BA000C405C /* Profiles */,
+				CCF2A4402B348D2B000C405C /* PageView */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -349,6 +347,7 @@
 				CCF2A4382B2F34F9000C405C /* ProfileHost.swift */,
 				CCF2A43E2B31E3B9000C405C /* ProfileEditor.swift */,
 				CCF2A43A2B2F359A000C405C /* ProfileSummary.swift */,
+				CCF2A4232B18E1CC000C405C /* Hikes */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -359,6 +358,7 @@
 				CCF2A4452B349480000C405C /* PageView.swift */,
 				CCF2A4412B348D55000C405C /* PageViewController.swift */,
 				CCF2A4472B39BEA8000C405C /* PageControl.swift */,
+				CCF2A4432B349242000C405C /* FeatureCard.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
