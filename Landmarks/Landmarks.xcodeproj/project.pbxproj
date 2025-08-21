@@ -42,6 +42,7 @@
 		CCE8E9612E4C7DEA0023CF59 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8E9602E4C7DEA0023CF59 /* FeatureCard.swift */; };
 		CCE8E9632E4CBD2E0023CF59 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8E9622E4CBD2E0023CF59 /* PageView.swift */; };
 		CCE8E9652E55F3660023CF59 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8E9642E55F3660023CF59 /* PageControl.swift */; };
+		CCE8E9682E570BA80023CF59 /* LookinServer in Frameworks */ = {isa = PBXBuildFile; productRef = CCE8E9672E570BA80023CF59 /* LookinServer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCE8E9682E570BA80023CF59 /* LookinServer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +251,7 @@
 			);
 			name = Landmarks;
 			packageProductDependencies = (
+				CCE8E9672E570BA80023CF59 /* LookinServer */,
 			);
 			productName = Landmarks;
 			productReference = CC516F312E194BD300059C1A /* Landmarks.app */;
@@ -279,6 +282,9 @@
 			);
 			mainGroup = CC516F282E194BD300059C1A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				CCE8E9662E570BA80023CF59 /* XCRemoteSwiftPackageReference "LookinServer" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = CC516F322E194BD300059C1A /* Products */;
 			projectDirPath = "";
@@ -543,6 +549,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CCE8E9662E570BA80023CF59 /* XCRemoteSwiftPackageReference "LookinServer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QMUI/LookinServer/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CCE8E9672E570BA80023CF59 /* LookinServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCE8E9662E570BA80023CF59 /* XCRemoteSwiftPackageReference "LookinServer" */;
+			productName = LookinServer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CC516F292E194BD300059C1A /* Project object */;
 }
